@@ -273,6 +273,12 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
+.center-mb{
+    display: block;
+}
+.center-mb{
+    display: none;
+}
 /* end about us */
 /* start pay */
 .pay {
@@ -474,8 +480,14 @@ body {
   margin-bottom: 25px;
   width: 483px;
 }
-.wend-left{
+/* .wend-left{
     display: block;
+} */
+.wendo-mb{
+    display: block;
+}
+.wendo-mb-res{
+    display: none;
 }
 .list-item img {
   margin-left: 13px;
@@ -681,12 +693,33 @@ font-size: 10px;
     right: 7%;
     top: 19%;
   }
+  .row-mb{
+    flex-direction: column-reverse;
+  }
+  .pay-title {
+    display: none;
+  }
+  .pay-info {
+padding: 1rem;
+  }
   .pay-sec {
     height: auto;
+    background: #fff;
+   
+  }
+  .center-web{
+display: none;
+  }
+  .center-mb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .pay-info .pay-info-text {
-    width: 312px;
+    width: 350px;
+    height:50px;
+    color: #000;
     font-size: 10px;
   }
   .pay-cards {
@@ -701,6 +734,26 @@ font-size: 10px;
   .pay .card .card-text {
     width: 150px;
   }
+
+  .pay-imgss{
+    width:216px;
+    height: 216px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 1px solid #7251A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: linear-gradient(96.52deg, #7251A2 1.32%, #924BBD 100%);
+  }
+  .pay-imgss img{
+    max-width: 100%;
+    width: 443px;
+    height: 186px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
   .partners{
     margin-top: 3rem;
   }
@@ -722,9 +775,25 @@ font-size: 10px;
   .partner-img img {
     max-width: 100%;
   }
-  .wend-left{
+
+  .wendo-bg{
+    width:203px;
+    height: 390px;
+    background: #F3F3F3;
+border-radius: 0px 89px 90px 0px;
+    transform: rotate(-90deg);
+    left: 21.9%;
+  }
+  .wendo-mb{
     display: none;
   }
+  .wendo-mb-res{
+    display: block;
+    position: absolute;
+    left: 31%;
+    top: 47%;
+  }
+ 
  .wendo-line{
     right: 33%;
   }
@@ -740,7 +809,13 @@ font-size: 10px;
     margin-bottom: 20px;
   }
   .list-item{
-    width: 330px;
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
     margin-bottom: 12px;
   }
   .list-item img{
