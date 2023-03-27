@@ -640,7 +640,8 @@ footer {
 /* responsive */
 @media screen and (max-width: 575.98px) {
   .header-title {
-    width: 379px;
+    width: 356px;
+    font-size: 24px;
   }
   .features .card {
     width: 350px;
