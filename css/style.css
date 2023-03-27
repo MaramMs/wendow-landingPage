@@ -691,6 +691,8 @@ footer {
   }
   .cards .card .card-title{
 font-size: 10px;
+word-wrap: break-word;
+width: 150px;
   }
   .circle{
     right: 7%;
@@ -726,7 +728,7 @@ display: none;
     font-size: 10px;
   }
   .pay-cards {
-    width: 404px;
+    width: 372px;
     margin-right: 0rem;
   }
   .pay .pay-cards .card {
@@ -785,7 +787,10 @@ background: linear-gradient(96.52deg, #7251A2 1.32%, #924BBD 100%);
     background: #F3F3F3;
 border-radius: 0px 89px 90px 0px;
     transform: rotate(-90deg);
-    left: 21.9%;
+    left: 23.9%;
+  }
+  .wendo-bg img{
+    width: 175px;
   }
   .wendo-mb{
     display: none;
